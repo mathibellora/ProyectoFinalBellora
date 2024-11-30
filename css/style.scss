@@ -1,0 +1,54 @@
+@import 'variables';
+@import 'index';
+@import 'personajes';
+
+
+body{
+    background-color: $colorFondo !important;
+    font-family: "Bangers", system-ui !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    text-align: center !important;
+}
+
+
+.titulo{
+    background-color: $colorFondoTer;
+    color: $colorTextoTitulos;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    padding-top: 0px;
+}
+
+.footer-custom{
+    background-color: $colorFondo;
+    height: 60px;
+    font-size: smaller;
+}
+
+ @media only screen and (min-width: 601px) {
+
+    .row-custom{
+        height: 100%;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+
+    .contenedor section img {
+        height: 75%;
+        width: 75%;
+    }
+
+    .contenedor p {
+        font-size: 10px;
+        padding-bottom: 10px;
+    }
+    
+}
+

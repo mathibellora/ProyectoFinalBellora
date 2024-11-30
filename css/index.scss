@@ -1,0 +1,14 @@
+//VARIABLES
+$colorFondoTer: #9AA0A8;
+$colorFondoSec: #A7C4B5;
+$colorFondo: #A9D8B8;
+$colorTextoTitulos: #04151f;
+$colorTexto: #30362F;
+
+.enlace {
+    transition: transform 1s ease-in-out;
+}
+
+.enlace:hover {
+    transform: scale(1.15);
+}

@@ -1,0 +1,87 @@
+.enlace {
+  transition: transform 1s ease-in-out;
+}
+
+.enlace:hover {
+  transform: scale(1.15);
+}
+
+body {
+  background-color: #A9D8B8 !important;
+  font-family: "Bangers", system-ui !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  text-align: center !important;
+}
+
+.contenedor {
+  position: relative;
+  width: 100%;
+}
+
+.contenedor section {
+  position: sticky;
+  top: 0;
+  height: 100%;
+  background-color: #9AA0A8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor section:nth-child(even) {
+  background-color: #A9D8B8;
+}
+
+h1.tituloper {
+  font-size: 150px;
+}
+
+@media only screen and (max-width: 600px) {
+  h1.tituloper {
+    font-size: 50px;
+  }
+}
+body {
+  background-color: #A9D8B8 !important;
+  font-family: "Bangers", system-ui !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  text-align: center !important;
+}
+
+.titulo {
+  background-color: #9AA0A8;
+  color: #04151f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  padding-top: 0px;
+}
+
+.footer-custom {
+  background-color: #A9D8B8;
+  height: 60px;
+  font-size: smaller;
+}
+
+@media only screen and (min-width: 601px) {
+  .row-custom {
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .contenedor section img {
+    height: 75%;
+    width: 75%;
+  }
+  .contenedor p {
+    font-size: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
