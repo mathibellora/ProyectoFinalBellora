@@ -64,8 +64,18 @@ body {
 
 .footer-custom {
   background-color: #A9D8B8;
-  height: 60px;
+  height: 80px;
   font-size: smaller;
+}
+
+.footer-custom img {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.footer-custom p {
+  margin: 0em;
 }
 
 @media only screen and (min-width: 601px) {

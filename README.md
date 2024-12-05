@@ -1,3 +1,7 @@
-# Pre Entrega 3 - Mathias Bellora
+# Proyecto Final - Mathias Bellora
 
-Pre entrega 3 - Dos paginas web index.html y personajes.html agregando SASS , SEO y animaciones a lo hecho en la entrega anterior.
+Sitio web dedicado a las Tortugas Ninjas que consta de 2 páginas: 1) Index 
+                                                                  2) Personajes
+
+
+Este sitio se construyó utilizando HTML y CSS aplicando los conceptos aprendidos en el curso "Desarrollo Web" dictaddo en CoderHouse.
